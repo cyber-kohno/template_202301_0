@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  user-select: none;
+}
+
+body {
+  display: block;
+  min-width: 1200px;
+  min-height: 900px;
+  font-size: 0;
+  /* background: #444444; */
+  /* background: url(./images/picture.jpg) top center / cover no-repeat; */
+  /* background-image: url('piano.jpg');
+  background-size: cover; */
+  /* filter: sepia(80%); */
+}
+
+#root {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(56, 46, 92, 0.829); */
+  /* background:radial-gradient( #990085be,#150063cc); */
+  background:radial-gradient( #363945be,#181818cc);
+  /* opacity: 0.9; */
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
